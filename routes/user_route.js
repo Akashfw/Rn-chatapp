@@ -30,7 +30,7 @@ userRoute.post("/register", async(req,res)=>{
                     to:req.body.email,
                     from:"shuklaakash704904@gmail.com",
                     subject:"Email Verification !",
-                    html: `<p>Hii ${username}, please click hear <a href="http://127.0.0.1:5500/unit-7/sprint-4/evaluation/chat-application/frontend/verify-page.html?email=${email}">Link</a> to verify your account</p>`
+                    html: `<p>Hii ${username}, please click hear <a href="https://frolicking-duckanoo-737413.netlify.app/verify-page.html?email=${email}">Link</a> to verify your account</p>`
                 })
                
 
